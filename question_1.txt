@@ -1,0 +1,8 @@
+Q.1 - Write a c++ program using object oriented programming design a class of teacher where attributes are as follows:
+Name
+Department
+Employee Id
+Salary
+
+Now after declaring attributes write a method where the department is changing with the new department. 
+Also use these attributes by creating two objects name "Geeta" and "Babita"
