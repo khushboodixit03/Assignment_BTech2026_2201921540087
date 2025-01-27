@@ -1,3 +1,5 @@
+PLATFORM USED --- HACKERANK , LEETCODE
+
 DATED - 26 - JAN - 2025 
 
 QUESTIONS LIST 
@@ -34,3 +36,62 @@ Insert the following data into the employees table:
 (4, 'Diana', 28, 52000.00, 'Marketing')
 (5, 'Eve', 40, 47000.00, 'Operations')
 Write a query to retrieve all columns and rows from the employees table.
+
+
+
+
+27 - JAN -2025 
+
+
+QUESTION - 2 -- 
+
+Query all columns for all American cities in the CITY table with populations larger than 100000. The CountryCode for America is USA.
+
+The CITY table is described as follows:
+
+FIELD           TYPE
+
+ID              NUMBER
+
+NAME            TEXT
+
+COUNTRY CODE    TEXT
+
+DISTRICT        TEXT
+
+POPULATION      NUMBER
+
+
+
+
+
+
+
+QUESTION  2 OOPS 
+
+
+A class defines a blueprint for an object. We use the same syntax to declare objects of a class as we use to declare variables of other basic types. For example:
+
+Box box1;          // Declares variable box1 of type Box
+Box box2;          // Declare variable box2 of type Box
+Kristen is a contender for valedictorian of her high school. She wants to know how many students (if any) have scored higher than her in the  exams given during this semester.
+
+Create a class named  with the following specifications:
+
+An instance variable named  to hold a student's  exam scores.
+A void input() function that reads  integers and saves them to .
+An int calculateTotalScore() function that returns the sum of the student's scores.
+Input Format
+
+Most of the input is handled for you by the locked code in the editor.
+
+In the void Student::input() function, you must read  scores from stdin and save them to your  instance variable.
+
+Constraints
+
+
+Output Format
+
+In the int Student::calculateTotalScore() function, you must return the student's total grade (the sum of the values in ).
+
+The locked code in the editor will determine how many scores are larger than Kristen's and print that number to the console.
