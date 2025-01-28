@@ -95,3 +95,33 @@ Output Format
 In the int Student::calculateTotalScore() function, you must return the student's total grade (the sum of the values in ).
 
 The locked code in the editor will determine how many scores are larger than Kristen's and print that number to the console.
+
+
+
+
+
+28 - jan - 2025
+
+
+OOPS QUESTION -- PLATFORM USED -- HACKERANK
+
+
+Create a base class Employee with:
+
+Private attributes: name (string), id (int).
+A constructor to initialize them.
+A function display() to print details.
+Create a derived class Manager that:
+
+Inherits from Employee.
+Adds a new private attribute bonus (double).
+Has a constructor to initialize all attributes.
+Overrides display() to include bonus details.
+
+SQL QUESTION -- PLATFORM USED -- HACKERANK
+
+Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN.
+
+The CITY table is described as follows;
+
+
