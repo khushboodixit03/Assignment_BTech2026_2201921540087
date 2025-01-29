@@ -125,3 +125,26 @@ Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE f
 The CITY table is described as follows;
 
 
+29 - JAN - 2025 
+
+OOPS QUESTION --- 
+
+
+You are given a Teacher class that models a teacher with attributes like name, salary, department, and ID. The class currently allows direct access to these attributes.
+
+Task:
+
+Modify the class to follow the principle of encapsulation by making all attributes private.
+Implement getter and setter functions to access and modify these attributes safely.
+In the main() function, create an object of Teacher, display its details using getter functions, and update the salary using a setter function.
+Ensure that the setter function for salary does not allow negative values.
+
+
+SQL QUESTION ---
+
+
+Query the list of CITY names from STATION that either do not start with vowels or do not end with vowels. Your result cannot contain duplicates.
+
+Input Format
+
+The STATION table is described as follows:
