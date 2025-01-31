@@ -148,3 +148,51 @@ Query the list of CITY names from STATION that either do not start with vowels o
 Input Format
 
 The STATION table is described as follows:
+
+
+
+30 - Jan - 2025 
+
+OOPS PROBLEM -- 
+
+
+Problem Statement:
+Design a class BankAccount with the following attributes and methods:
+
+Attributes: accountNumber, accountHolder, balance
+Methods:
+deposit(double amount): Adds money to the balance.
+withdraw(double amount): Deducts money if sufficient balance is available.
+display(): Shows account details.
+
+
+
+SQL PROBLEM -- PLATFORM USED -- HACKERANK
+
+
+Write a query identifying the type of each record in the TRIANGLES table using its three side lengths. Output one of the following statements for each record in the table:
+
+Equilateral: It's a triangle with  sides of equal length.
+Isosceles: It's a triangle with  sides of equal length.
+Scalene: It's a triangle with  sides of differing lengths.
+Not A Triangle: The given values of A, B, and C don't form a triangle.
+Input Format
+
+The TRIANGLES table is described as follows:
+
+
+
+31 - JAN - 2025 
+
+
+OOPS PROBLEM -- 
+
+Create a base class Vehicle with attributes brand and model. Create a derived class Car that inherits Vehicle and has an additional attribute seats. Implement a function to display details.
+
+
+
+SQL PROBLEM -- PLATFORM USED -- HACKERANK
+
+Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA.
+
+
