@@ -196,3 +196,42 @@ SQL PROBLEM -- PLATFORM USED -- HACKERANK
 Query the NAME field for all American cities in the CITY table with populations larger than 120000. The CountryCode for America is USA.
 
 
+01 - feb - 2025
+
+OOPS QUESTIONS -----
+
+Design a simple banking system using OOP principles in C++. The system should have the following features:
+
+Account Class:
+
+Attributes: accountNumber (string) accountHolder (string) balance (double) Methods: deposit(double amount): Adds the specified amount to the balance. withdraw(double amount): Subtracts the specified amount from the balance if sufficient funds are available; otherwise, displays an error message. displayBalance(): Displays the current balance. SavingsAccount Class (inherits from Account):
+
+Additional Attribute: interestRate (double, e.g., 0.05 for 5%) Additional Method: applyInterest(): Applies the interest to the current balance.
+
+SQL QUESTION --
+
+Query the list of CITY names starting with vowels (i.e., a, e, i, o, or u) from STATION. Your result cannot contain duplicates.
+
+Input Format
+
+The STATION table is described as follows:
+
+02 - FEB - 2025
+
+OOPS QUESTIONS --
+
+Design a library management system using OOP principles in C++. The system should have the following features:
+
+Book Class:
+
+Attributes: title (string) author (string) isbn (string) isCheckedOut (bool, default is false) Methods: checkOut(): Marks the book as checked out if it's not already checked out. returnBook(): Marks the book as returned if it was checked out. Library Class:
+
+Attribute: books (vector of Book objects) Methods: addBook(const Book& book): Adds a new book to the library. removeBook(const std::string& isbn): Removes a book from the library by its ISBN. findBookByTitle(const std::string& title): Searches for books by title and displays their details.
+
+SQL QUESTION --
+
+Write a query that prints a list of employee names (i.e.: the name attribute) for employees in Employee having a salary greater than per month who have been employees for less than months. Sort your result by ascending employee_id.
+
+Input Format
+
+The Employee table containing employee data for a company is described as follows:
