@@ -235,3 +235,16 @@ Write a query that prints a list of employee names (i.e.: the name attribute) fo
 Input Format
 
 The Employee table containing employee data for a company is described as follows:
+
+
+3- feb - 2025 
+
+OOPS QUESTION -- 
+
+Create a C++ program that demonstrates inheritance. Define a base class Vehicle with attributes like brand and year. Then, create a derived class Car that adds an attribute model. Implement a method in both classes to display the details.
+
+
+SQL QUESTION -- 
+
+Question:
+Write an SQL query to retrieve the names of employees and their department names from two tables: Employees and Departments. The Employees table contains id, name, and dept_id, while the Departments table contains dept_id and dept_name.
