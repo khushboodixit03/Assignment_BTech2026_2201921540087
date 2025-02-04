@@ -248,3 +248,37 @@ SQL QUESTION --
 
 Question:
 Write an SQL query to retrieve the names of employees and their department names from two tables: Employees and Departments. The Employees table contains id, name, and dept_id, while the Departments table contains dept_id and dept_name.
+
+
+
+4 - feb - 2025 
+
+OOPS QUESTION -- 
+
+Define a class named Book with:
+
+Private members: bookID, title, author, and isAvailable.
+A constructor to initialize book details.
+A function to borrow a book (sets isAvailable = false if available).
+A function to return a book (sets isAvailable = true).
+A function to display book details.
+In main(), create multiple book objects, borrow a book, return it, and display the book details.
+
+
+SQL QUESTION-- 
+
+Create a table named Students with the following columns:
+
+StudentID (Primary Key, Auto Increment)
+Name (VARCHAR, Not Null)
+Age (INTEGER)
+Department (VARCHAR)
+Marks (FLOAT)
+Insert at least 3 sample student records into the table.
+
+Write SQL queries to:
+
+Retrieve all student records.
+Find students who scored more than 80 marks.
+Update the marks of a specific student.
+Delete a student record.
