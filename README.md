@@ -282,3 +282,45 @@ Retrieve all student records.
 Find students who scored more than 80 marks.
 Update the marks of a specific student.
 Delete a student record.
+
+
+5 - feb - 2025 
+
+OOPS QUESTION --- 
+
+Create a C++ program using Object-Oriented Programming (OOP) to model a Car Showroom System.
+
+Requirements:
+Define a class named Car with:
+
+Private members: carID, brand, model, price.
+A constructor to initialize car details.
+A function to display car details.
+Define a class named Showroom with:
+
+A private array to store multiple Car objects.
+Functions to add a car and display all available cars.
+In main(), create multiple cars, add them to the showroom, and display all cars.
+
+
+SQL QUESTION -- 
+
+Create an SQL database for a Car Showroom Management System.
+
+Requirements:
+Create a table named Cars with the following columns:
+
+CarID (Primary Key, Auto Increment)
+Brand (VARCHAR, Not Null)
+Model (VARCHAR, Not Null)
+Price (FLOAT, Not Null)
+Availability (BOOLEAN, Default TRUE)
+Insert at least 3 sample car records into the table.
+
+Write SQL queries to:
+
+Retrieve all cars in the showroom.
+Find all cars priced above $30,000.
+Update the price of a specific car.
+Mark a car as not available (when it is sold).
+Delete a car from the database.
