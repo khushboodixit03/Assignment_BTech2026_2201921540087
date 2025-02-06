@@ -324,3 +324,48 @@ Find all cars priced above $30,000.
 Update the price of a specific car.
 Mark a car as not available (when it is sold).
 Delete a car from the database.
+
+
+6 - feb - 2025 
+
+
+OOPS QUESTION --- 
+
+Create a Banking System using Object-Oriented Programming (OOP) in C++.
+
+Requirements:
+Create a class named BankAccount with:
+
+Private members: accountNumber, accountHolder, balance.
+A constructor to initialize account details.
+Functions to:
+Deposit money
+Withdraw money (if balance is sufficient)
+Display account details
+Create a derived class SavingsAccount that:
+
+Inherits from BankAccount
+Adds an interest rate
+Includes a function to apply interest
+In main(), create accounts, perform transactions, and display account details.
+
+
+SQL QUESTION -- 
+
+Requirements:
+Create a table named Accounts with the following columns:
+
+AccountID (Primary Key, Auto Increment)
+AccountHolder (VARCHAR, Not Null)
+Balance (FLOAT, Not Null)
+AccountType (VARCHAR, Either 'Savings' or 'Current')
+InterestRate (FLOAT, Default 0.0 for Current accounts)
+Insert at least 3 sample account records into the table.
+
+Write SQL queries to:
+
+Retrieve all account details.
+Find all accounts with balance greater than $5000.
+Update the balance after a deposit or withdrawal.
+Apply interest to Savings Accounts.
+Delete an account from the database.
