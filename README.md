@@ -369,3 +369,77 @@ Find all accounts with balance greater than $5000.
 Update the balance after a deposit or withdrawal.
 Apply interest to Savings Accounts.
 Delete an account from the database.
+
+7 - feb - 2025 
+
+OOPS QUESTION --- 
+
+Create a C++ program using classes and objects to simulate a simple bank account system.
+
+Requirements:
+Define a class BankAccount with the following private attributes:
+accountNumber (integer)
+accountHolder (string)
+balance (double)
+Add the following public member functions:
+A constructor to initialize the account details.
+deposit(double amount) to add money to the account.
+withdraw(double amount) to deduct money from the account, ensuring the balance does not go negative.
+display() to show the account details.
+Create an object of BankAccount and perform deposit, withdrawal, and display operations.
+
+
+SQL QUESTION -- 
+
+You are given an Employees table with the following structure:
+
+emp_id	name	department	salary	joining_date
+101	Alice	HR	60000	2021-03-15
+102	Bob	IT	75000	2020-06-10
+103	Charlie	Finance	80000	2019-08-23
+104	David	IT	72000	2022-01-05
+105	Eva	HR	65000	2021-07-12
+Tasks:
+Retrieve all employees who joined after 2020.
+Find the highest salary among all employees.
+Get the total salary paid in each department.
+
+
+
+8 - FEB - 2025 
+
+OOPS QUESTION ---
+
+Create a class hierarchy for a Vehicle Management System using inheritance.
+
+Requirements:
+Define a base class Vehicle with:
+Protected attributes: brand (string), year (int).
+A constructor to initialize these attributes.
+A displayInfo() function to print vehicle details.
+Create two derived classes from Vehicle:
+Car: Additional attribute numDoors (int).
+Bike: Additional attribute hasGear (bool).
+Each derived class should override the displayInfo() function to display specific details.
+Implement a main() function where you create objects of Car and Bike and display their details.
+
+
+
+SQL QUESTIONS --- 
+
+Students Table:
+student_id	name	age
+1	John	20
+2	Emma	22
+3	Mike	21
+Grades Table:
+student_id	subject	marks
+1	Math	85
+1	Science	90
+2	Math	78
+2	Science	88
+3	Math	92
+3	Science	89
+Tasks:
+Retrieve each student's name and marks (by joining both tables).
+Find the average marks per student.
