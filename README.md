@@ -443,3 +443,32 @@ student_id	subject	marks
 Tasks:
 Retrieve each student's name and marks (by joining both tables).
 Find the average marks per student.
+
+
+
+9 - feb - 2025 
+
+OOPS QUESTION --- 
+
+Create a C++ program that models a Student using OOP principles. The class should have:
+
+Private data members: name, rollNumber, and marks (array for 3 subjects).
+Public methods:
+setDetails(): To set student details.
+calculateAverage(): To calculate and return the average marks.
+displayDetails(): To display student details and average marks.
+Write a main() function to create an object of the class, accept details from the user, and display the student’s details.
+
+
+SQL QUESTION --- 
+
+Consider a table named Employees with the following columns:
+
+emp_id	name	department	salary	join_date
+101	Alice	HR	50000	2020-05-10
+102	Bob	IT	60000	2019-08-15
+103	Charlie	IT	70000	2018-07-20
+104	David	HR	55000	2021-10-01
+105	Emma	Finance	65000	2022-02-18
+Task:
+Write an SQL query to find the highest-paid employee in each department.
